@@ -1,0 +1,1 @@
+pycache/ *.pyc *.pyo *.pyd output/ venv/ .env *.json

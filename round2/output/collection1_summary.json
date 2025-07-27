@@ -1,0 +1,61 @@
+{
+    "metadata": {
+        "input_documents": [
+            "doc1.pdf",
+            "doc2.pdf",
+            "doc3.pdf",
+            "doc4.pdf"
+        ],
+        "persona": "Tech Learner",
+        "job_to_be_done": "Summarize development practices for a new tech learner.",
+        "processing_timestamp": "2025-07-27T20:08:18.665563"
+    },
+    "extracted_sections": [
+        {
+            "document": "doc1.pdf",
+            "section_title": "MUMSHAD MANNAMBETH",
+            "importance_rank": 5,
+            "page_number": 1
+        },
+        {
+            "document": "doc2.pdf",
+            "section_title": "Intro",
+            "importance_rank": 5,
+            "page_number": 1
+        },
+        {
+            "document": "doc3.pdf",
+            "section_title": "AWS Whitepaper",
+            "importance_rank": 5,
+            "page_number": 1
+        },
+        {
+            "document": "doc4.pdf",
+            "section_title": "A Fresh Graduate\u2019s Guide to Software Development Tools and Technologies ",
+            "importance_rank": 5,
+            "page_number": 1
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "doc1.pdf",
+            "refined_text": "In essence, If you are already familiar with the basic concepts such as docker containers and yaml files feel free to skip those sections. In essence, While docker swarm is really easy to setup and get started, it lacks some of the advanced autoscaling features required for complex applications. In essence, Minikube provides an executable command line utility that will automatically download the iso and deploy it in a virtualization platform such as oracle virtualbox or vmware fusion. In essence, Installing all of these various components individually on different nodes and modifying the configuration files to make it work is a tedious task. In essence, So, what i am trying to illustrate in this slide is that, pods usually have a one-to-one relationship with containers running your application. In essence, There are also options available for automatically scaling the replicaset based on load, but that is an advanced topic and we will discuss it at a later time..",
+            "page_number": 1
+        },
+        {
+            "document": "doc2.pdf",
+            "refined_text": "In essence, Images builder security ecosystem future what is docker (2/3) \u2022 a container manager \u2022 lightweight virtualisation (host and guest systems share the same kernel) \u2022 based on linux namespaces and cgroups \u2022 massively copy-on-write \u2022 immutable images \u2022 instant deployment \u2022 suitable for micro-services (one process, one container) \u2192immutable architecture 5 / 84 images builder security ecosystem future docker images a docker image is a snapshot of the \ufb01lesystem + some metadata \u2022 immutable \u2022 copy-on-write storage \u2022 for instantiating containers \u2022 for creating new versions of the image (multiple layers) \u2022 identi\ufb01ed by unique hex ids \u2022 image id: randomly genreated \u2022 digest: hashed from the content \u2022 may be tagged10 with a human-friendly name eg: debian:wheezy debian:jessie debian:latest 10possibly multiple times 43 / 84 images builder security ecosystem future image transfer commands using the registry api docker pull repo[:tag]. In essence, \u201d \u2022 instructions pre\ufb01xed with onbuild are not run in this build, their execution is triggered when building a derived image 59 / 84 images builder security ecosystem future user namespaces since docker v1.10 but not enabled by default \u2022 uids/gids inside the containers mapped to another range outside the container \u2022 useful for: \u2022 preventing fs-based attacks (eg: root user inside the container creates a setuid executable in an external volume) \u2022 isolating docker users from each other (one docker daemon for each user, with uids remapped to di\ufb00erent ranges) \u2022 limits (as of v1.10) \u2022 global con\ufb01g only (daemon scope) \u2022 coarse mapping only (hardcoded range: 0..65535) 68 / 84 even with capabilities+seccomp+user namespaces enabled, you may still be vulnerable, because the kernel\u2019s attack surface is big.",
+            "page_number": 1
+        },
+        {
+            "document": "doc3.pdf",
+            "refined_text": "In essence, Events are patterns of data identifying more complicated circumstances than expected, such as changes in equipment when a belt is stuck or connected motion detectors using movement signals to activate lights and security cameras. In essence, Overview of amazon web services aws whitepaper today, many companies manually extract data from scanned documents such as pdfs, images, tables, and forms, or through simple ocr software that requires manual con\ufb01guration (which often must be updated when the form changes). In essence, It's also often unstructured, with information contained in clinical notes, lab reports, insurance claims, medical images, recorded conversations, and time-series data (for example, heart ecg or brain eeg traces). In essence, License administrators can add rules in service catalog, which allows them to create and manage catalogs of it services that are approved for use on all their aws accounts. In essence, Overview of amazon web services aws whitepaper application request in real time to help ensure that users can only access your applications after they meet speci\ufb01ed security requirements. In essence, Further, by using the iam identity center application con\ufb01guration wizard, you can create security assertion markup language (saml) 2.0 integrations and extend sso access to any of your saml-enabled applications..",
+            "page_number": 1
+        },
+        {
+            "document": "doc4.pdf",
+            "refined_text": "In essence, There are also some new features not available previously such as canvas, that extend the multimedia capability of website even further. In essence, Canvas itself acts a container or drawable region in which its dimension can be specified with the height and width attribute. In essence, Offline api at present, more users are accessing the web applications while in motion such as via mobile phones, laptops , or tablets. In essence, This is not an efficient method as some cpu intensive piece of javascript can render the page very slowly or even make it unresponsive. In essence, This may become necessary because creating each new worker consumes precious browser resources, which you will need to reclaim once the workers task is no longer required. In essence, /* terminate the worker */ arithmeticworker.terminate(); 5.2.3 security sandbox third party content such as advertisements, blog comments, and widgets, are very commonly found in today's websites..",
+            "page_number": 1
+        }
+    ]
+}
