@@ -5,7 +5,6 @@
 
 This project automatically identifies the underlying persona from a collection of PDFs and generates a ranked summary of the documents based on their relevance to the inferred persona.
 
----
 
  How It Works
 
@@ -16,7 +15,6 @@ This project automatically identifies the underlying persona from a collection o
    - **Ranks PDFs** based on relevance to the inferred persona.
 3. A final **`persona_summary.json`** file is generated with all results.
 
----
 
 
  How to Run
