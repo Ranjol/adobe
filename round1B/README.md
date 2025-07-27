@@ -1,13 +1,13 @@
-# Adobe India Hackathon 2025 – Challenge 1B  
-## Persona-Driven Document Intelligence 🧠📄
+ Adobe India Hackathon 2025 – Challenge 1B  
+ Persona-Driven Document Intelligence 
 
-### 👤 Persona Inference + PDF Summarization + Ranking
+ Persona Inference + PDF Summarization + Ranking
 
 This project automatically identifies the underlying persona from a collection of PDFs and generates a ranked summary of the documents based on their relevance to the inferred persona.
 
 ---
 
-## 🔧 How It Works
+ How It Works
 
 1. **Input PDFs** (in `input/` folder) are parsed and analyzed.
 2. The system:
@@ -19,7 +19,7 @@ This project automatically identifies the underlying persona from a collection o
 ---
 
 
-## 🚀 How to Run
+ How to Run
 
 1. **Install Dependencies**
    ```bash
