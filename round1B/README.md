@@ -8,19 +8,18 @@ This project automatically identifies the underlying persona from a collection o
 
  How It Works
 
-1. **Input PDFs** (in `input/` folder) are parsed and analyzed.
+1. Input PDFs (in `input/` folder) are parsed and analyzed.
 2. The system:
-   - **Infers the persona** (e.g., Travel Planner, Food Explorer).
-   - **Summarizes each PDF** in 2–3 lines.
-   - **Ranks PDFs** based on relevance to the inferred persona.
-3. A final **`persona_summary.json`** file is generated with all results.
+   - Infers the persona (e.g., Travel Planner, Food Explorer).
+   - Summarizes each PDF in 2–3 lines.
+   - Ranks PDFs based on relevance to the inferred persona.
+3. A final persona_summary.json file is generated with all results.
 
 
 
  How to Run
 
-1. **Install Dependencies**
-   ```bash
+1. Install Dependencies
    pip install -r requirements.txt
   Add Your PDFs
 
